@@ -8,11 +8,7 @@
 
 <title>King Maths Academy | Maths Coaching up to Class 12</title>
 
-<meta name="description" content="King Maths Academy provides expert mathematics coaching up to class 12. Learn maths easily with Maths Sir (MSc Mathematics). Book free demo class today.">
-
-<meta name="keywords" content="maths tuition, class 10 maths, class 12 maths, online maths tutor, king maths academy">
-
-<meta name="author" content="Maths Sir">
+<meta name="description" content="King Maths Academy provides expert mathematics coaching up to class 12. Learn maths easily with Maths Sir (MSc Mathematics).">
 
 <style>
 
@@ -47,44 +43,22 @@ text-decoration:none;
 font-weight:bold;
 }
 
-nav a:hover{
-text-decoration:underline;
-}
-
 .hero{
 text-align:center;
 padding:60px 20px;
 background:white;
-animation:fadeIn 2s;
 }
 
 .hero img{
 width:200px;
-margin-bottom:20px;
-}
-
-.hero h1{
-font-size:38px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:18px;
-margin-bottom:20px;
 }
 
 .btn{
 background:#25D366;
 color:white;
-padding:15px 30px;
+padding:15px 25px;
 border-radius:6px;
 text-decoration:none;
-font-size:18px;
-transition:0.3s;
-}
-
-.btn:hover{
-background:#1ebe5d;
 }
 
 .section{
@@ -102,21 +76,13 @@ gap:20px;
 .card{
 background:white;
 padding:25px;
-width:260px;
+width:250px;
 border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
-transition:0.3s;
-animation:fadeUp 1.5s;
-}
-
-.card:hover{
-transform:translateY(-8px);
 }
 
 .card img{
 width:100%;
-border-radius:8px;
-margin-bottom:10px;
 }
 
 form{
@@ -151,22 +117,6 @@ text-align:center;
 padding:20px;
 }
 
-@keyframes fadeIn{
-from{opacity:0}
-to{opacity:1}
-}
-
-@keyframes fadeUp{
-from{
-opacity:0;
-transform:translateY(30px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
-
 </style>
 
 </head>
@@ -174,34 +124,30 @@ transform:translateY(0);
 <body>
 
 <header>
-
 <h1>King Maths Academy</h1>
 <p>Expert Maths Coaching up to Class 12</p>
-
 </header>
 
 <nav>
-
 <a href="#about">About</a>
 <a href="#courses">Courses</a>
 <a href="#register">Register</a>
-<a href="#demo">Demo</a>
+<a href="#demo">Book Demo</a>
 <a href="#contact">Contact</a>
-
 </nav>
 
 <section class="hero">
 
 <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
 
-<h1>Learn Mathematics with Maths Sir</h1>
+<h2>Learn Mathematics with Maths Sir</h2>
 
-<p>MSc Mathematics | Concept Based Learning</p>
+<p>MSc Mathematics</p>
 
 <br>
 
 <a class="btn" href="https://wa.me/919010034067">
-Book Free Demo Class
+Contact on WhatsApp
 </a>
 
 </section>
@@ -210,56 +156,38 @@ Book Free Demo Class
 
 <h2>About the Tutor</h2>
 
-<br>
-
 <p>
-Maths Sir is an MSc Mathematics graduate who teaches mathematics in a simple and logical way.
-Students up to class 12 can build strong mathematical understanding and score higher in exams.
+Maths Sir (MSc Mathematics) provides high quality mathematics coaching for students up to class 12.
+Concept based learning and personal guidance.
 </p>
 
 </section>
 
 <section id="courses" class="section">
 
-<h2>Courses Offered</h2>
-
-<br>
+<h2>Courses</h2>
 
 <div class="cards">
 
 <div class="card">
-
 <img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png">
-
 <h3>Class 6–8</h3>
-
-<p>Build strong mathematics foundation</p>
-
+<p>Strong maths foundation</p>
 </div>
 
 <div class="card">
-
 <img src="https://cdn-icons-png.flaticon.com/512/2784/2784403.png">
-
 <h3>Class 9–10</h3>
-
-<p>Board exam preparation and concept clarity</p>
-
+<p>Board exam preparation</p>
 </div>
 
 <div class="card">
-
 <img src="https://cdn-icons-png.flaticon.com/512/3406/3406926.png">
-
 <h3>Class 11–12</h3>
-
-<p>Advanced mathematics and exam preparation</p>
-
+<p>Advanced mathematics</p>
 </div>
 
 </div>
-
-<br>
 
 <p><b>Fees:</b> Contact for fees</p>
 
@@ -268,8 +196,6 @@ Students up to class 12 can build strong mathematical understanding and score hi
 <section id="register" class="section">
 
 <h2>Student Registration</h2>
-
-<br>
 
 <form>
 
@@ -280,9 +206,7 @@ Students up to class 12 can build strong mathematical understanding and score hi
 <input type="tel" placeholder="Mobile Number" required>
 
 <select>
-
 <option>Select Class</option>
-
 <option>Class 6</option>
 <option>Class 7</option>
 <option>Class 8</option>
@@ -290,7 +214,6 @@ Students up to class 12 can build strong mathematical understanding and score hi
 <option>Class 10</option>
 <option>Class 11</option>
 <option>Class 12</option>
-
 </select>
 
 <button type="submit">Register</button>
@@ -301,29 +224,36 @@ Students up to class 12 can build strong mathematical understanding and score hi
 
 <section id="demo" class="section">
 
-<h2>Book Free Demo Class</h2>
+<h2>Book Demo Class – ₹199</h2>
 
-<br>
+<form id="demoForm">
 
-<form>
+<input type="text" id="name" placeholder="Student Name" required>
 
-<input type="text" placeholder="Student Name" required>
+<input type="tel" id="phone" placeholder="Mobile Number" required>
 
-<input type="tel" placeholder="Mobile Number" required>
-
-<select>
-
+<select id="studentClass">
 <option>Select Class</option>
-
 <option>Class 6–8</option>
 <option>Class 9–10</option>
 <option>Class 11–12</option>
-
 </select>
 
-<input type="date">
+<label>Select Demo Date (3–5 days from today)</label>
 
-<button type="submit">Book Demo</button>
+<input type="date" id="demoDate" required>
+
+<p><b>Demo Fee: ₹199</b></p>
+
+<h3>Scan QR to Pay</h3>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=sunderam@superyes&pn=King%20Maths%20Academy&am=199&cu=INR">
+
+<p>Scan using any UPI app</p>
+
+<br>
+
+<button type="submit">I Have Paid – Send Booking</button>
 
 </form>
 
@@ -332,8 +262,6 @@ Students up to class 12 can build strong mathematical understanding and score hi
 <section id="contact" class="section">
 
 <h2>Contact</h2>
-
-<br>
 
 <p><b>Academy:</b> King Maths Academy</p>
 
@@ -346,11 +274,49 @@ Students up to class 12 can build strong mathematical understanding and score hi
 </section>
 
 <footer>
-
 <p>© 2026 King Maths Academy</p>
-
 </footer>
+
+<script>
+
+const today = new Date();
+
+const minDate = new Date();
+minDate.setDate(today.getDate() + 3);
+
+const maxDate = new Date();
+maxDate.setDate(today.getDate() + 5);
+
+const demoDateInput = document.getElementById("demoDate");
+
+demoDateInput.min = minDate.toISOString().split("T")[0];
+demoDateInput.max = maxDate.toISOString().split("T")[0];
+
+document.getElementById("demoForm").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+let name = document.getElementById("name").value;
+let phone = document.getElementById("phone").value;
+let studentClass = document.getElementById("studentClass").value;
+let date = document.getElementById("demoDate").value;
+
+let subject = "Demo Class Booking - King Maths Academy";
+
+let body =
+"Student Name: " + name +
+"%0D%0AMobile Number: " + phone +
+"%0D%0AClass: " + studentClass +
+"%0D%0ADemo Date: " + date +
+"%0D%0ADemo Fee Paid: ₹199";
+
+window.location.href =
+"mailto:gpaycities@gmail.com?subject=" + subject + "&body=" + body;
+
+});
+
+</script>
 
 </body>
 
-                </html>
+</html>
